@@ -1,13 +1,24 @@
 <html>
     <head>
       <link rel="stylesheet" href="index.css">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Chakra+Petch:wght@300;500;700&family=Open+Sans&display=swap');
+      </style>
+
     </head>
     <body>
-      <div class="body-text">
-        <h1>Current Count: </h1>
-        <h2 id="count-element">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
+      <div class="container">
+        <div id="header">
+          <h1>Current Count: </h1>
+        </div>
+        <div id="counter">
+          <h2 id="count-element">0</h2>
+        </div>
+        <div class="buttons">
+          <button id="increment-btn" onclick="increment()">INCREMENT</button>
+          <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+
         <p id="save-element">Previous Entries: </p>
         <script src="index.js"></script>
       </div>

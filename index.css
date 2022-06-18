@@ -3,13 +3,12 @@ body {
   background-size: cover;
 }
 
-.body-text {
+.container {
   font-family: 'Chakra Petch',
     sans-serif;
   font-weight: bold;
   text-align: center;
   color: white;
-  padding-top: 00px;
 }
 
 h1 {

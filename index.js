@@ -9,17 +9,19 @@ let count = 0
 
 
 function increment() {
-  countElement.innerText = count
   count += 1
-  console.log(count)
+  countElement.textContent = count
+  // console.log(count)
 }
 
 // increment()
 
 function save() {
   let countStr = count + " - "
-  saveElement.innerText += countStr
-  console.log(count)
+  saveElement.textContent += countStr
+  countElement.textContent = 0
+  count = 0
+  // console.log(count)
 }
 
 // save()
