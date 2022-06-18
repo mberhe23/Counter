@@ -4,13 +4,22 @@
 // change count-element in html
 
 let countElement = document.getElementById("count-element")
-
+let saveElement = document.getElementById("save-element")
 let count = 0
 
+
 function increment() {
-  count = count + 1
   countElement.innerText = count
+  count += 1
   console.log(count)
 }
 
-increment()
+// increment()
+
+function save() {
+  let countStr = count + " - "
+  saveElement.innerText += countStr
+  console.log(count)
+}
+
+// save()
