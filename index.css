@@ -40,3 +40,7 @@ button {
 #save-btn {
   background: darkgreen;
 }
+
+#decrease-btn {
+  background: gray;
+}
